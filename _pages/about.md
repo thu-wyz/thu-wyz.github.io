@@ -17,7 +17,6 @@ My current research interests lie in the following areas:
 - Reasoning abilities of large language models.
 - Inference algorithms and their scalability.
 
-======
 
 
 Publications
