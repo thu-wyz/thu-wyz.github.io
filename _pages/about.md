@@ -21,10 +21,13 @@ My current research interests lie in the following areas:
 
 Publications
 ======
-(TODO)
+[1] **An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models** (in submission) 
+  **Yangzhen Wu**, Zhiqing Sun, Shanda Li, Sean Welleck, Yiming Yang
 
 Awards
 ======
-(TODO)
+AI Mathematical Olympiad - Progress Prize 1, **2nd place**($65536), 2/1161. *Kaggle*, June. 2023
+
+35 th China Mathematical Olympiad, Gold Medal. *Chinese Mathematical Society*, Nov. 2019
 
 
