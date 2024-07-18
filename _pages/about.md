@@ -21,7 +21,7 @@ My current research interests lie in the following areas:
 
 Publications
 ======
-[1] **An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models** (in submission) 
+[1] **An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models** (in submission)  
   **Yangzhen Wu**, Zhiqing Sun, Shanda Li, Sean Welleck, Yiming Yang
 
 Awards
