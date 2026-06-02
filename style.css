@@ -5,7 +5,7 @@
   --accent: #2f6fed;
   --line: #e8eaee;
   --thumb-bg: #f4f6f9;
-  --maxw: 760px;
+  --maxw: 960px;
 }
 
 * { box-sizing: border-box; }
@@ -37,14 +37,14 @@ a:hover { text-decoration: underline; }
 /* ---------- Hero ---------- */
 .hero {
   display: flex;
-  gap: 32px;
+  gap: 40px;
   align-items: center;
   margin-bottom: 56px;
 }
 
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
