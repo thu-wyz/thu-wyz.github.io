@@ -122,6 +122,7 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 .authors { margin: 0 0 2px; font-size: 0.95rem; }
+.contrib { margin: 0 0 4px; font-size: 0.82rem; color: var(--muted); }
 .venue { margin: 0 0 6px; color: var(--muted); font-size: 0.9rem; font-style: italic; }
 .pub-links { margin: 0; font-size: 0.9rem; }
 
