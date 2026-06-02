@@ -47,6 +47,7 @@ a:hover { text-decoration: underline; }
   height: 220px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 22%;
   flex-shrink: 0;
   background: var(--thumb-bg);
   border: 1px solid var(--line);
