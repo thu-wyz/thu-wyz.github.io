@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yangzhen Wu</title>
+  <meta name="description" content="Personal homepage of Yangzhen Wu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+
+    <!-- ===================== HEADER / INTRO ===================== -->
+    <header class="hero">
+      <img class="avatar" src="assets/photo.jpg" alt="Photo of Yangzhen Wu"
+           onerror="this.onerror=null;this.src='https://placehold.co/400x400/eef0f4/9aa3b2?text=Your+Photo';" />
+      <div class="hero-text">
+        <h1>Yangzhen Wu</h1>
+        <p class="tagline">PhD Student &middot; UC Berkeley</p>
+        <p class="bio">
+          <!-- TODO: Replace with your own introduction. -->
+          I am a researcher interested in <em>[your research interests]</em>.
+          I work on <em>[topic]</em>, with a focus on <em>[focus area]</em>.
+          Previously, I studied at <em>[previous affiliation]</em>.
+        </p>
+        <nav class="links">
+          <a href="mailto:yangzhen_wu@berkeley.edu">Email</a>
+          <span>/</span>
+          <a href="#" target="_blank" rel="noopener">CV</a>
+          <span>/</span>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+          <span>/</span>
+          <a href="https://github.com/thu-wyz" target="_blank" rel="noopener">GitHub</a>
+          <span>/</span>
+          <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section">
+      <h2>About</h2>
+      <p>
+        <!-- TODO: A longer paragraph about you, your background, and what you care about. -->
+        Write a couple of sentences here about your academic journey, what motivates
+        your research, and the kinds of problems you like to think about. This section
+        is a great place to mention collaborations, awards, or things you are looking for
+        (e.g. internships or collaborators).
+      </p>
+    </section>
+
+    <!-- ===================== SELECTED WORK ===================== -->
+    <section class="section">
+      <h2>Selected Work</h2>
+      <ul class="pub-list">
+
+        <li class="pub">
+          <div class="pub-thumb">
+            <img src="assets/paper1.png" alt=""
+                 onerror="this.onerror=null;this.src='https://placehold.co/220x130/eef0f4/9aa3b2?text=Figure';" />
+          </div>
+          <div class="pub-body">
+            <h3>Paper Title One</h3>
+            <p class="authors"><strong>Yangzhen Wu</strong>, Co-author A, Co-author B</p>
+            <p class="venue">Venue / Conference, 2025</p>
+            <p class="pub-links">
+              <a href="#">Paper</a> &middot;
+              <a href="#">Code</a> &middot;
+              <a href="#">Project Page</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <div class="pub-thumb">
+            <img src="assets/paper2.png" alt=""
+                 onerror="this.onerror=null;this.src='https://placehold.co/220x130/eef0f4/9aa3b2?text=Figure';" />
+          </div>
+          <div class="pub-body">
+            <h3>Paper Title Two</h3>
+            <p class="authors">Co-author A, <strong>Yangzhen Wu</strong>, Co-author C</p>
+            <p class="venue">Venue / Conference, 2024</p>
+            <p class="pub-links">
+              <a href="#">Paper</a> &middot;
+              <a href="#">Code</a>
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ===================== NEWS ===================== -->
+    <section class="section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><span class="date">2026.06</span> Started building my personal homepage.</li>
+        <li><span class="date">2025.XX</span> <!-- TODO --> Add a recent update here.</li>
+      </ul>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Yangzhen Wu. Built with plain HTML &amp; CSS.</p>
+    </footer>
+
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
